@@ -1,0 +1,80 @@
+/* PADRONIZAÇÃO */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --color-background: #f7f0e2;
+  --color-marrom: #211510;
+  --color-marromClaro: #302221;
+  --color-marromEscuro: #221918;
+  --color-azulLogo: #00d1ff;
+  --color-botaoDestaque: #f8b700;
+  --color-botao: #b06601;
+  --color-amareloSimbolo: #ffe532;
+  --color-cinzaSimbolo: #34425b;
+  --color-text: #eaddc1;
+  --line-height: 1.5rem;
+  font-size: 62.5%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  font-size: 1.8rem;
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+#container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  width: 100vw;
+  height: 10rem;
+  background-color: var(--color-marromClaro);
+}
+
+.img-logo {
+  display: flex;
+  height: 8vh;
+}
+
+.link-logo {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2rem;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.nav-list {
+  list-style-type: none;
+}
