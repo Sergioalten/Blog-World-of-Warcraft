@@ -36,41 +36,40 @@ body {
 /* HEADER */
 header {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
+  justify-content: center;
   height: 8rem;
   background-color: var(--color-cinzaEscuro);
   color: var(--color-azulLogo);
 }
 
-/* LOGO - TITULO */
-
-.logo {
+.header-container {
   display: flex;
   align-items: center;
-  margin-left: 10rem;
+  justify-content: space-between;
+  width: 85%;
 }
+
+/* LOGO */
 
 .logo-link {
   display: flex;
-  align-items: center;
   text-decoration: none;
-  margin-right: 1rem;
+  height: 7rem;
   color: var(--color-azulLogo);
 }
-
 /* NAVEGAÇÃO */
 
 header ul {
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
   list-style-type: none;
   gap: 2rem;
 }
 
 .nav-item {
   display: flex;
+  justify-content: space-between;
   text-decoration: none;
   color: var(--color-azulLogo);
 }
@@ -92,7 +91,6 @@ header ul {
 
 .nav-btn {
   text-decoration: none;
-  margin-right: 10rem;
   color: var(--color-cinza);
   background-color: var(--color-amareloMedio);
   padding: 1rem;
