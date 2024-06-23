@@ -91,6 +91,7 @@ header ul {
 
 .nav-btn {
   text-decoration: none;
+  font-weight: bold;
   color: var(--color-cinza);
   background-color: var(--color-amareloMedio);
   padding: 1rem;
@@ -105,9 +106,8 @@ header ul {
 }
 
 .nav-btn:hover {
-  font-weight: bold;
-  opacity: 0.9;
-  transition: 0.3s;
+  opacity: 0.8;
+  transition: 0.2s;
 }
 
 /* SEÇÃO PRINCIPAL */
