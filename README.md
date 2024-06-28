@@ -1,5 +1,7 @@
 # World of Warcraft
 
+https://sergioalten.github.io/
+
 - Landing Page criada para prática de conceitos de HTML, CSS e Javascript.
 
 - Blog sobre o jogo World of Warcraft, trazendo informações sobre as expansões, os personagens e as histórias relacionadas ao jogo.
